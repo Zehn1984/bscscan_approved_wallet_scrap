@@ -1567,3 +1567,31 @@ Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
 1663975112962	Marionette	INFO	Stopped listening on port 44385
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1663975572020	geckodriver	INFO	Listening on 127.0.0.1:59659
+1663975572410	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "33609" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiledV7x4h"
+Gtk-Message: 20:26:12.507: Failed to load module "canberra-gtk-module"
+Gtk-Message: 20:26:12.508: Failed to load module "canberra-gtk-module"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1663975573021	Marionette	INFO	Marionette enabled
+1663975573023	Marionette	INFO	Listening on port 34625
+WebDriver BiDi listening on ws://127.0.0.1:33609
+Read port: 34625
+1663975573247	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiledV7x4h/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://127.0.0.1:33609/devtools/browser/2c703059-c0db-42c1-a6c8-a2bdf1ffdf4c
+1663976853370	geckodriver	INFO	Listening on 127.0.0.1:59081
+1663976853485	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "53039" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileYaJPlM"
+Gtk-Message: 20:47:33.598: Failed to load module "canberra-gtk-module"
+Gtk-Message: 20:47:33.599: Failed to load module "canberra-gtk-module"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1663976854214	Marionette	INFO	Marionette enabled
+1663976854218	Marionette	INFO	Listening on port 39787
+WebDriver BiDi listening on ws://127.0.0.1:53039
+Read port: 39787
+1663976854328	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileYaJPlM/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://127.0.0.1:53039/devtools/browser/e6e4eaa1-e619-4c1b-864d-b19a1f95810a
