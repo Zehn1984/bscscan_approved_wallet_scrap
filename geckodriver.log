@@ -2683,3 +2683,20 @@ DevTools listening on ws://127.0.0.1:54493/devtools/browser/8dbe570c-6ee9-408a-9
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1664219674093	geckodriver	INFO	Listening on 127.0.0.1:49019
+1664219674476	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "45255" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilebu9KIL"
+Gtk-Message: 16:14:34.554: Failed to load module "canberra-gtk-module"
+Gtk-Message: 16:14:34.555: Failed to load module "canberra-gtk-module"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1664219674997	Marionette	INFO	Marionette enabled
+1664219675000	Marionette	INFO	Listening on port 46409
+WebDriver BiDi listening on ws://127.0.0.1:45255
+Read port: 46409
+1664219675182	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebu9KIL/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://127.0.0.1:45255/devtools/browser/5ebad437-524d-4dc3-aa99-cba173672583
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

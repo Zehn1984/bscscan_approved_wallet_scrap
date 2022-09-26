@@ -3,9 +3,14 @@ from selenium.webdriver.common.by import By
 from time import sleep
 from random import uniform
 
+# MUDE AS CARTEIRAS ABAIXO DE ACORDO COM A NECESSIDADE
+carteiraAprovadora = "0xa045e37a0d1dd3a45fefb8803d22457abc0a728a"
+carteira_a_verificar_1 = "0x627621F9d14809F258Ce09f31A2be70a9cB1b7C8"
+carteira_a_verificar_2 = "0x06569e99AEEe8D1f914914A00DeA91Ad498fA3eC"
+carteira_a_verificar_3 = ""
+
 driver = webdriver.Firefox()
 carteiraFromArr = []
-carteiraAprovadora = "0xa045e37a0d1dd3a45fefb8803d22457abc0a728a"
 # Pagina com listagem da carteira que quer conferir se fez approve
 driver.get("https://bscscan.com/txs?a=" + carteiraAprovadora + "&ps=10&p=1")
 sleep(uniform(1,2))
@@ -30,7 +35,7 @@ for n in range(int(maxPage)):
     # Assim pode-se fazer uma confirmacao, evitando o erro
     if carteiraAprovada:
       # Se a carteira aprovada for igual a alguma das abaixo...
-      if carteiraAprovada[0].text == "0x627621F9d14809F258Ce09f31A2be70a9cB1b7C8" or carteiraAprovada[0].text == "0x06569e99AEEe8D1f914914A00DeA91Ad498fA3eC":
+      if carteiraAprovada[0].text == carteira_a_verificar_1 or carteiraAprovada[0].text == carteira_a_verificar_2 or carteiraAprovada[0].text == carteira_a_verificar_3:
         # Adiciona a carteira que fez o approve (from) para dentro da array e txt
         carteiraFromArr.append(driver.find_element(By.ID, 'addressCopy').text)
         with open("carteiras_from.txt", "w") as carteiras_from:
