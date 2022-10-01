@@ -1,3 +1,7 @@
+# MADE BY ANDERSON CAMPOLINA - RPA AND WEB3 DEV
+# EMAIL: andersoncampolina@gmail.com
+# LINKEDIN: https://www.linkedin.com/in/anderson-campolina-688175225/
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from time import sleep
